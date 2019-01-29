@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Zadanie #4</title>
+</head>
+<body>
+	<form action="http://ajax.markello.info/a3.php" method="POST" name="form" id="form">
+		<p>Пол</p>
+		<input type="radio" name="sex" value="man"><span>Муж</span>
+		<input type="radio" name="sex" value="woman"><span>Жен</span><br>
+		<p>Рост</p><span>0</span> <input type="range" min="0" max="200" step="1" value="180" name="height"><span>200</span><br>
+		<input type="submit" value="send">
+	</form>
+	<p id="content"></p>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
